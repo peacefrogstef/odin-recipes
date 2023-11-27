@@ -1,0 +1,48 @@
+body {
+   background-image:url("images/Circles.svg");
+   background-size: cover;
+   background-color:black;
+   color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    transition:0.2s;
+}
+
+h1:hover {
+    color:#88d8bd;
+    transition: 0.2s;
+}
+
+.list {
+    text-align: center;
+}
+
+.list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list ul li a {
+    font-family: 'Nova Square', sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+.list ul li a:hover {
+    font-weight: bold;
+    text-decoration:underline #88d8bd;
+}
+
+.list ul li {
+    transition: 0.2s;
+    margin: 1%;
+}
+
+.list ul li:hover{
+    transform: rotate(2deg) scale(1.1);
+    transition: 0.2s;
+}
